@@ -1,6 +1,6 @@
 package com.SpikeJava;
 
-public class CocheElectrico extends Coche {
+public class CocheElectrico extends Coche { //extends heredar
 
     String motorElectrico;
 
