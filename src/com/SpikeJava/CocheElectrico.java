@@ -15,6 +15,11 @@ public class CocheElectrico extends Coche {
         this.motorElectrico = motorElectrico;
     }
 
+    @Override //sobreescribir
+    public void acelerar(Integer cantidad) {
+        Integer cantidadAjustada = cantidad * 2;
+        super.acelerar(cantidadAjustada);
+    }
 
     @Override
     public String toString() {

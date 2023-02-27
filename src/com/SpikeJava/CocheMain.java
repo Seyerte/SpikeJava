@@ -8,7 +8,7 @@ public class CocheMain {
 
         Coche cocheObj2 =new Coche("azul", "opel", "corsa", 1030.50, 4.5);
 
-        cocheObj2.acelerar(50);
+        //cocheObj2.acelerar(50);
 
         System.out.println(cocheObj2);
 
@@ -29,5 +29,8 @@ public class CocheMain {
                 1200.20, 4.8,"TXZ");
 
         System.out.println(cocheElectrico);
+
+        cocheElectrico2.acelerar(50);
+        System.out.println(cocheElectrico2);
     }
 }
