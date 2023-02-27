@@ -24,5 +24,10 @@ public class CocheMain {
         cocheElectrico.modelo ="civic";
 
         System.out.println(cocheElectrico);
+
+        CocheElectrico cocheElectrico2 = new CocheElectrico("verde", "seat", "ibiza",
+                1200.20, 4.8,"TXZ");
+
+        System.out.println(cocheElectrico);
     }
 }
