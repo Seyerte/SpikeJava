@@ -11,6 +11,9 @@ public class Coche {
     Integer velocidad = 0;
 
     //constructores
+    public Coche(){
+
+    }
     public Coche (String color, String fabricante, String modelo, Double peso, Double largo){
         this.color = color;
         this.fabricante = fabricante;
@@ -23,10 +26,21 @@ public class Coche {
     //comportamiento
 
     public void acelerar (Integer cantidad){
-        if (cantidad > 0 && cantindad <= 120) {
+        if (cantidad > 0 && cantidad <= 120) {
             this.velocidad += cantidad;
         }
 
     }
 
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "color='" + color + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", peso=" + peso +
+                ", largo=" + largo +
+                ", velocidad=" + velocidad +
+                '}';
+    }
 }
