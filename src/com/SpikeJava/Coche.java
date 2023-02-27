@@ -1,6 +1,6 @@
 package com.SpikeJava;
 
-public abstract class Coche {
+public /*abstract*/ class Coche {
 
     //atributo
     String color;
