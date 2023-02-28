@@ -8,16 +8,26 @@ public class Operadores {
         int numero2 = 20;
         int resultadosuma = numero1 + numero2;
 
-        System.out.println(resultaadosuma);
+        System.out.println(resultadosuma);
         System.out.println(resultadosuma + 5.77);
 
         int resultadoResta = numero1 - numero2;
 
-        // comparacion:
+        /*
+        > mayor que
+        < menor que
+        >= mayor o igual que
+        <= menor o igual que
+        == igual que
+         */
 
+        boolean resultado1 = numero1 > numero2; // false
+        System.out.println(resultado1);
 
+        boolean resultado2 = numero2 > numero1; // true
+        System.out.println(resultado2);
 
-
+        //ir depurando el codigo
 
 
         // Operadores
