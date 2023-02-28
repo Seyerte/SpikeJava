@@ -27,7 +27,10 @@ public class Operadores {
         boolean resultado2 = numero2 > numero1; // true
         System.out.println(resultado2);
 
-        //ir depurando el codigo
+        /*ir depurando el codigo con debug
+        poniendo punto de break point y el programa se para y se podra
+        ir viendo linea a linea que es lo que pasa
+         */
 
 
         // Operadores
