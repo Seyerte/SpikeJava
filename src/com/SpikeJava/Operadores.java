@@ -32,6 +32,17 @@ public class Operadores {
         ir viendo linea a linea que es lo que pasa
          */
 
+        /*Lógicos
+        and &&
+        or ||
+         */
+
+        boolean resultado3 = numero1 > 5 && numero1 < 30;
+
+
+        int edad = 17;
+        boolean carnetJoven = edad > 15 && edad <= 30;
+
 
         // Operadores
 
