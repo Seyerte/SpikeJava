@@ -14,6 +14,11 @@ public class Sobrecarga {
         return num1 + num2;
     }
 }
+/*
+Sobrecarga permite duplicar un metodo siempre y cuando tenga
+diferente numero/tipo parametros
+ */
+
 
 // cuando hay sobrecarga, podriamos duplicarla si cambiamos el numero de parametros
 
