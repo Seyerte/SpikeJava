@@ -1,8 +1,7 @@
 package com.interfaces;
 
-import com.SpikeJava.Coche;
-import com.SpikeJava.CocheElectrico;
-import com.interfaces.CocheService;
+import com.oop.vehiculos.Coche;
+import com.oop.vehiculos.CocheElectrico;
 
 public class CocheServiceClassicImpl implements CocheService {
     @Override

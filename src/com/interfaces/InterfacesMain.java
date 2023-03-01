@@ -1,6 +1,6 @@
 package com.interfaces;
 
-import com.SpikeJava.Coche;
+import com.oop.vehiculos.Coche;
 
 public class InterfacesMain {
     public static void main(String[] args) {

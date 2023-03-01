@@ -1,7 +1,6 @@
 package com.interfaces;
 
-import com.SpikeJava.Coche;
-import com.interfaces.CocheService;
+import com.oop.vehiculos.Coche;
 
 public class CocheServiceSportImpl implements CocheService {
     @Override
