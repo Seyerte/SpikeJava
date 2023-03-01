@@ -19,6 +19,7 @@ public class Operadores {
         >= mayor o igual que
         <= menor o igual que
         == igual que
+        === IMPORTANTE: EN JAVA NO EXISTE
          */
 
         boolean resultado1 = numero1 > numero2; // false

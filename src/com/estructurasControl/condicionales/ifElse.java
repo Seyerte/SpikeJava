@@ -10,12 +10,12 @@ public class ifElse {
         int number4 = 1000;
 
 
-        if(number1 < number2 && number2 < number3) {
+        if (number1 < number2 && number2 < number3) {
             System.out.println("verdadero");
             System.out.println("verdadero");
-        }else if(number3 < number4){
+        } else if (number3 < number4) {
             System.out.println("else if");
-        }else {
+        } else {
             System.out.println("falso");
         }
 
