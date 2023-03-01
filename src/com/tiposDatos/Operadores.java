@@ -47,6 +47,10 @@ public class Operadores {
 
         // Operadores
 
+        // incremento ++
+        // decremento --
+
+
         // aritmeticos
 
         // + - / * %
