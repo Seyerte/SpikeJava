@@ -3,6 +3,11 @@ package com.oop.vehiculos;
 public class CocheMain {
     public static void main(String[] args) {
 
+        // clase identificador = new clase(;
+
+        //Crear un objeto utilizando el constructor vacio
+        //Coche coche = new Coche();
+
         String coche = "Opel Corsa";
         Coche cocheObj = new CocheHibrido();
 
