@@ -25,6 +25,7 @@ public class EmpleadoCRUDV1 {
     }
 
     public List<Empleado> findAll() {
+
         return empleados;
     }
 

@@ -17,6 +17,10 @@ public class Empleado {
         this.activo = activo;
     }
 
+    public Empleado() {
+
+    }
+
     // 3. metodos
 
 
