@@ -1,4 +1,4 @@
-package com.interfaces;
+package com.interfaces.interfaces1;
 
 import com.oop.vehiculos.Coche;
 
